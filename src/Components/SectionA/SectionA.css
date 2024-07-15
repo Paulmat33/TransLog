@@ -1,0 +1,59 @@
+.what-we-do{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.safe-reliable h4{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+  background: #E8E8E880;
+  width: 79.09px;
+  padding:2.58px 2.40px 3.19px 7.74px;
+  border-left:3px solid  #FFDA56;
+font-size: 12.04px;
+font-weight: 400;
+line-height: 14.26px;
+text-align: left;
+}
+.safe-reliable h2{
+  padding-top:12.89px;
+  width:252.74px;
+  font-family: var(--heading-font);
+font-size: 30.09px;
+font-weight: 600;
+line-height: 35.65px;
+text-align: left;
+}
+
+.services{
+  padding-top:28.37px;
+  padding-bottom: 71.35px;
+}
+.services-icon{
+  display:flex;
+  flex-direction:row;
+  gap:13.75px;
+}
+.cargo-info {
+  border-left: 0.86px solid #D8D8D8;
+  padding-left: 21.49px;
+  width:253.6px;
+}
+.cargo-info h3{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+font-size: 21.49px;
+font-weight: 400;
+line-height: 25.47px;
+text-align: left;
+padding-bottom:11.18px;
+
+}
+.cargo-info p{
+  font-family: var(--text-font);
+  color:#666C89;
+  font-size: 13.75px;
+  font-weight: 500;
+  line-height: 20.84px;
+  text-align: left;
+  
+}
