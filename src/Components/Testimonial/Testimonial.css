@@ -1,0 +1,91 @@
+.testimonial{
+  padding-top:40px;
+  display:flex;
+  justify-content: space-between;
+  align-item:center;
+  padding-bottom:40px;
+  width:343px;
+}
+.testimonial-1 h2{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+  background: #E8E8E880;
+  width: 79.09px;
+  padding:2.58px 2.40px 3.19px 7.74px;
+  border-left:3px solid  #FFDA56;
+font-size: 7.8px;
+font-weight: 400;
+line-height: 9.24px;
+text-align: left;
+margin-bottom:7.71px;
+color:#1C1F35;
+}
+.testimonial-1 h1{
+  font-family: var(--heading-font);
+font-size: 19.49px;
+font-weight: 600;
+line-height: 23.1px;
+text-align: left;
+color: #1C1F35;
+}
+.arrow{
+  display:flex;
+  gap:9.46px;
+  align-item:center;
+}
+
+.testimonial-2{
+  padding:35.44px 41.16px;
+  background: #F4F4F4;
+  width:343px;
+}
+.image-1{
+display:flex;
+flex-direction: row;
+align-item:center;
+padding-bottom:13.72px;
+}
+.kath-smith{
+  padding-left:5.72px;
+  padding-top:11.44px;
+}
+.kath-smith h3{
+  font-family: var(--heading-font);
+font-size: 11.43px;
+font-weight: 500;
+color:#091242;
+line-height: 13.55px;
+text-align: left;
+padding-bottom:1.14px;
+
+}
+.kath-smith p{
+  font-family: var(--text-font);
+  color:#091242;
+font-size: 9.15px;
+font-weight: 500;
+line-height: 13.86px;
+text-align: left;
+
+}
+.dot{
+  margin-left:76.6px;
+}
+
+.testimonial-text{
+  font-family: var(--text-font);
+font-size: 9.15px;
+color:#666C89;
+width:260.68px;
+font-style: italic;
+font-weight: 500;
+line-height: 13.86px;
+text-align: left;
+padding-bottom:18.29px;
+}
+
+.testimonial-3{
+  padding:35.44px 41.16px;
+  background: #091242;
+  width:343px;
+}

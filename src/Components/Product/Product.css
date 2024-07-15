@@ -1,0 +1,63 @@
+.product-sec{
+  padding-top:40px;
+  background:#F4F4F4;
+
+}
+.product-sec img{
+  width:100%;
+  padding-bottom:18px
+
+}
+.opportunity{
+  width:89%;
+}
+.opportunity h3{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+  background: #E8E8E880;
+  width: 79.09px;
+  padding:2.58px 2.40px 3.19px 7.74px;
+  border-left:3px solid  #FFDA56;
+font-size: 8.68px;
+font-weight: 400;
+line-height: 10.29px;
+text-align: left;
+margin-bottom:7.71px;
+color:#1C1F35;
+}
+.opportunity h1{
+  font-family: var(--heading-font);
+font-size: 21.71px;
+font-weight: 600;
+line-height: 25.72px;
+text-align: left;
+color:#1C1F35;
+}
+.opportunity p{
+  font-family: var(--text-font);
+  color:#666C89;
+font-size: 9.92px;
+font-weight: 500;
+line-height: 15.04px;
+text-align: left;
+padding-bottom:37.84px;
+}
+
+.package-icon{
+  display: flex;
+  flex-direction:row;
+  gap:12.04px;
+}
+.package-icon img{
+  width:39.08px;
+}
+.safe{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+font-size: 15.41px;
+font-weight: 400;
+line-height: 14.7px;
+text-align: left;
+padding-top:12px;
+
+}

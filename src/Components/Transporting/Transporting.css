@@ -1,0 +1,40 @@
+.transporting h1 {
+  font-family: var(--heading-font);
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  text-align: center;
+}
+.roadtrans {
+  position: relative;
+  margin-top: 365px;
+}
+.roadtrans img {
+  position: absolute;
+  z-index: 2;
+  bottom: 300px;
+}
+.empty2 {
+  background: linear-gradient(
+    95deg,
+    #ffb629 -1.19%,
+    #ffda56 57.78%,
+    #ffd7a6 115.08%
+  );
+  height: 400px;
+}
+.btn2 {
+  background: url("../../assets/blackbg.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  bottom: 150px;
+  padding: 19px 56px;
+  font-family: var(--text-font);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  color:#fff;
+  text-align: left;
+  border:none;
+}
