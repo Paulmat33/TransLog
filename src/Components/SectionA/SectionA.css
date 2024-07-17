@@ -1,59 +1,135 @@
 .what-we-do{
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 96px;
+padding-bottom: 96px;
+display: flex;
+flex-direction:row;
+gap:33px;
 }
 .safe-reliable h4{
   font-family: var(--heading-font);
   color:#1C1F35;
   background: #E8E8E880;
+  width: 100px;
+  padding:3px 9px;
+  border-left:3px solid  #FFDA56;
+  line-height: 16.59px;
+font-size: 14px;
+font-weight: 400;
+}
+.safe-reliable h2{
+  padding-top:15px;
+  width: 294px;
+  font-family: var(--heading-font);
+  font-size: 35px;
+font-weight: 600;
+line-height: 41.48px;
+text-align: left;
+color: #1C1F35;
+}
+.service{
+  width:391px;
+}
+.service-A{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:40px;
+  padding-bottom: 70px;
+
+}
+.services-icon{
+  display:flex;
+  flex-direction: row;
+}
+.services-icon img{
+  width:49.32px;
+  height:53.38px
+}
+  
+.cargo-info{
+  border-left: 0.86px solid #D8D8D8;
+padding-left: 15px;
+width:270px;
+}
+.cargo-info h3{
+  padding-bottom: 13px;
+  font-family: var(--heading-font);
+  color:#1C1F35;
+font-size: 16px;
+font-weight: 400;
+line-height: 29.63px;
+text-align: left;
+}
+.cargo-info p{
+  font-family: var(--text-font);
+  color:#666C89;
+font-size: 15px;
+font-weight: 500;
+line-height: 24.24px;
+text-align: left;
+
+}
+
+
+@media screen and (max-width:500px) {
+
+  .what-we-do{
+    padding-top: 40px;
+  padding-bottom: 40px;
+  flex-direction:column;
+gap:33px;
+}
+.safe-reliable h4{  
   width: 79.09px;
   padding:2.58px 2.40px 3.19px 7.74px;
-  border-left:3px solid  #FFDA56;
 font-size: 12.04px;
-font-weight: 400;
 line-height: 14.26px;
-text-align: left;
 }
 .safe-reliable h2{
   padding-top:12.89px;
   width:252.74px;
   font-family: var(--heading-font);
-font-size: 30.09px;
-font-weight: 600;
+  font-size: 30.09px;
 line-height: 35.65px;
-text-align: left;
 }
 
 .services{
+  width:100%;
   padding-top:28.37px;
-  padding-bottom: 71.35px;
+  padding-bottom: 1.35px;
+}
+.service-A{
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  padding-bottom: 10px;
+
 }
 .services-icon{
   display:flex;
-  flex-direction:row;
-  gap:13.75px;
+  flex-direction: row;
+  gap:1.75px;
+}
+
+.services-icon img{
+  width:42px;
+  height:45px
 }
 .cargo-info {
   border-left: 0.86px solid #D8D8D8;
-  padding-left: 21.49px;
-  width:253.6px;
+  padding-left: 21px;
+  width:75%;
 }
 .cargo-info h3{
-  font-family: var(--heading-font);
-  color:#1C1F35;
 font-size: 21.49px;
 font-weight: 400;
 line-height: 25.47px;
-text-align: left;
 padding-bottom:11.18px;
 
 }
 .cargo-info p{
-  font-family: var(--text-font);
-  color:#666C89;
   font-size: 13.75px;
-  font-weight: 500;
   line-height: 20.84px;
-  text-align: left;
   
+}
 }

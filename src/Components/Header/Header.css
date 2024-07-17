@@ -1,0 +1,43 @@
+.header{
+  background: #091242;
+  display: flex;
+  flex-direction: row;
+  text-align: center; 
+  padding-top: 20px;
+  padding-bottom: 20px; 
+ }
+ .logo img{
+  width:85%;
+ }
+.icon{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-left: 150px;
+  gap:25px;
+
+}
+.header-2 img{
+  width: 20%;
+}
+ .header-2{
+  display:flex;
+  align-items: center;
+  gap:14px;
+}
+.header-2 p{
+  width:150px;
+  font-family: var(--text-font);
+  color: #fff;
+font-size: 14px;
+font-weight: 500;
+line-height: 18.9px;
+text-align: left;
+}
+
+
+@media screen and (max-width: 500px){
+  .header{
+    display: none;
+  }
+}

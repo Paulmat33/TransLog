@@ -6,10 +6,14 @@ import Testimonial from '../../Components/Testimonial/Testimonial'
 import Product from '../../Components/Product/Product'
 import Expert from '../../Components/Expert/Expert'
 import Contact from '../../Components/Contact/Contact'
+import Blog from '../../Components/Blog/Blog'
+import Footer from '../../Components/Footer/Footer'
+import Header from '../../Components/Header/Header'
 
 const Homepage = () => {
   return (
     <div>
+      <Header/>
       <Hero/>
       <SectionA/>
       <Delivery/>
@@ -18,6 +22,8 @@ const Homepage = () => {
       <Product/>
       <Expert/>
       <Contact/>
+      <Blog/>
+      <Footer/>
     </div>
   )
 }
