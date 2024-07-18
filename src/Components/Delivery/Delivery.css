@@ -63,7 +63,7 @@
   text-align: left;
 }
 .padding{
-  padding-bottom: 112px;
+  padding-bottom: 40px;
 }
 .delivery-flex{
   display: flex;
@@ -73,11 +73,16 @@
   padding-right: 0px;
   padding-bottom: 0px;
 }
+.delivery-packages{
+  display:none;
+}
+.unknown2{
+margin-left:100px;
+
+}
 .unknown{
   width:90%;
-  margin-left: 16px;
 }
-
 
 
 @media screen and (max-width: 500px) {

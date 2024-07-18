@@ -2,7 +2,7 @@ import "./Delivery.css";
 import box from "../../assets/boxicon.png";
 import airplane from "../../assets/airplane.png";
 import color from "../../assets/smallcolor.png";
-import counter from '../../assets/Counter.png'
+import counter from "../../assets/Counter.png";
 
 const Delivery = () => {
   return (
@@ -50,7 +50,9 @@ const Delivery = () => {
           </p>
         </div>
       </div>
-        <img src={counter} alt="" className="unknown"/>
+      <div className="unknown2">
+        <img src={counter} alt="" className="unknown" />
+      </div>
     </div>
   );
 };

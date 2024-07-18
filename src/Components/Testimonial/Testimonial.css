@@ -1,48 +1,115 @@
 .testimonial{
-  padding-top:40px;
+  padding-top:98px;
   display:flex;
   justify-content: space-between;
-  align-item:center;
+  align-items:center;
   padding-bottom:40px;
-  width:343px;
+  width:1000px;
 }
 .testimonial-1 h2{
-  font-family: var(--heading-font);
   color:#1C1F35;
   background: #E8E8E880;
-  width: 79.09px;
-  padding:2.58px 2.40px 3.19px 7.74px;
+  width: 97px;
+  padding:3px 9px;
   border-left:3px solid  #FFDA56;
-font-size: 7.8px;
+font-size: 14px;
 font-weight: 400;
-line-height: 9.24px;
+line-height: 16.59px;
 text-align: left;
-margin-bottom:7.71px;
+margin-bottom:13px;
 color:#1C1F35;
 }
 .testimonial-1 h1{
   font-family: var(--heading-font);
-font-size: 19.49px;
+font-size: 35px;
 font-weight: 600;
-line-height: 23.1px;
+line-height: 41.48px;
 text-align: left;
 color: #1C1F35;
 }
 .arrow{
   display:flex;
   gap:9.46px;
-  align-item:center;
+  align-items:center;
+}
+.testimonial-2{
+  padding:30px;
+  background: #F4F4F4;
+  width: 456px;
+}
+.image-1{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  padding-bottom:24px;
+  }
+  .kath-smith{
+    padding-left:10px;
+  }
+  .kath-smith h3{
+    font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: 500;
+  color:#091242;
+  line-height: 15.3px;
+  text-align: left;
+  padding-bottom:1.14px;
+  padding-top:10px;
+  
+  }
+  
+.kath-smith p{
+  font-family: var(--text-font);
+  color:#091242;
+font-size: 12px;
+font-weight: 500;
+line-height: 24.24px;
+text-align: left;
+
+}
+.dot{
+  margin-left:240px;
+}
+.testimonial-text{
+  font-family: var(--text-font);
+font-size: 16px;
+color:#666C89;
+width:450px;
+font-style: italic;
+font-weight: 500;
+line-height: 24.24px;
+text-align: left;
+padding-bottom:18.29px;
 }
 
+.testimonial-3{
+  padding:30px 29px;
+  background: #091242;
+  width:457px;
+}
+@media screen and (max-width: 500px) {
+.testimonial{
+  padding-top:40px;
+  padding-bottom:40px;
+  width:343px;
+  font-family: var(--heading-font);
+}
+.testimonial-1 h2{
+  width: 79.09px;
+  padding:2.58px 2.40px 3.19px 7.74px;
+font-size: 7.8px;
+line-height: 9.24px;
+margin-bottom:7.71px;
+}
+.testimonial-1 h1{
+font-size: 19.49px;
+line-height: 23.1px;
+}
 .testimonial-2{
   padding:35.44px 41.16px;
-  background: #F4F4F4;
   width:343px;
 }
 .image-1{
-display:flex;
-flex-direction: row;
-align-item:center;
 padding-bottom:13.72px;
 }
 .kath-smith{
@@ -50,22 +117,14 @@ padding-bottom:13.72px;
   padding-top:11.44px;
 }
 .kath-smith h3{
-  font-family: var(--heading-font);
 font-size: 11.43px;
-font-weight: 500;
-color:#091242;
 line-height: 13.55px;
-text-align: left;
 padding-bottom:1.14px;
 
 }
 .kath-smith p{
-  font-family: var(--text-font);
-  color:#091242;
 font-size: 9.15px;
-font-weight: 500;
 line-height: 13.86px;
-text-align: left;
 
 }
 .dot{
@@ -88,4 +147,5 @@ padding-bottom:18.29px;
   padding:35.44px 41.16px;
   background: #091242;
   width:343px;
+}
 }
