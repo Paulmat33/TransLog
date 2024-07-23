@@ -6,52 +6,53 @@ const Product = () => {
   return (
     <div className="product-sec">
       <img src={bigairplane} alt="" />
+
       <div className="opportunity container">
         <div className="leverage">
-
-        <h3>Why Choose Us</h3>
-        <h1>We create opportunity to reach potential</h1>
-        <p>
-          Leverage agile frameworks to provide a robust synopsis for strategy
-          foster collaborative thinking to further the overall value
-          proposition.
-        </p>
+          <h3>Why Choose Us</h3>
+          <h1>We create opportunity to reach potential</h1>
+          <p>
+            Leverage agile frameworks to provide a robust synopsis for strategy
+            foster collaborative thinking to further the overall value
+            proposition.
+          </p>
         </div>
 
         <div className="package-icon">
-          <div className="package">
-            <div className="package-icon1">
+          <div>
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">Safe Package</p>
+              <span>Safe Package</span>
             </div>
 
-            <div className="package-icon1">
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">Global Tracking</p>
+              <span>Global Tracking</span>
             </div>
 
-            <div className="package-icon1">
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">In Delivery Time</p>
+              <span>In Time Delivery</span>
             </div>
           </div>
 
-          <div className="package">
-            <div className="package-icon1">
+          <div>
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">Ship Everywhere</p>
+              <span>Ship Everyware</span>
             </div>
 
-            <div className="package-icon1">
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">24/7 Support</p>
+              <span>24/7 Support</span>
             </div>
 
-            <div className="package-icon1">
+            <div className="package">
               <img src={packageicon} alt="" />
-              <p className="safe">Transparant Pricing</p>
+              <span>Transparant Pricing</span>
             </div>
           </div>
+
         </div>
       </div>
     </div>

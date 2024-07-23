@@ -2,25 +2,25 @@ import "./Contact.css";
 import Email from "../../assets/Email-icon.png";
 import Phone from "../../assets/Phone-icon.png";
 import Time from "../../assets/Time-icon.png";
-import Client1 from '../../assets/Client1.png';
-import Client2 from '../../assets/Client2.png';
+import Client1 from "../../assets/Client1.png";
+import Client2 from "../../assets/Client2.png";
 
 const Contact = () => {
   return (
     <div className="contact-info container">
-      <div className="contact-info-1">
-        <h4>Contact</h4>
-        <h1>Get in touch with us</h1>
-        <p>
-          Leverage agile frameworks to provide a robust synopsis for strategy
-          foster collaborative thinking to further the overall value.
-        </p>
-      </div>
-      <div>
+      <div className="form-display">
         <div>
-          <div className="contact-2">
-            <img src={Email} alt="" />
-            <p>Email contact@logistics.com</p>
+          <h4>Contact</h4>
+          <h1>Get in touch with us</h1>
+          <p>
+            Leverage agile frameworks to provide a robust synopsis for strategy
+            foster collaborative thinking to further the overall value.
+          </p>
+          <div className="contact-us">
+            <div className="contact-2">
+              <img src={Email} alt="" />
+              <p>Email contact@logistics.com</p>
+            </div>
           </div>
 
           <div className="contact-2">
@@ -41,20 +41,23 @@ const Contact = () => {
         </div>
 
         <form>
-          <div className="formname">
-            <input type="text" placeholder="Your name*" required />
-          </div>
+          <div className="formname-display">
+            <div className="formname">
+              <input type="text" placeholder="Your name*" required />
+            </div>
 
-          <div className="formname">
-            <input type="email" placeholder="Email address*" required />
+            <div className="formname">
+              <input type="email" placeholder="Email address*" required />
+            </div>
           </div>
+          <div className="formname-display">
+            <div className="formname">
+              <input type="number" placeholder="Phone Number*" required  className="input"/>
+            </div>
 
-          <div className="formname">
-            <input type="number" placeholder="Phone Number*" required />
-          </div>
-
-          <div className="formname">
-            <input type="text" placeholder="City*" required />
+            <div className="formname">
+              <input type="text" placeholder="City*" required />
+            </div>
           </div>
 
           <div className="formname message">
@@ -67,11 +70,11 @@ const Contact = () => {
           </div>
           <button className="send-btn">Submit Message</button>
         </form>
+      </div>
 
-        <div className="pics">
-          <img src={Client1} alt=""/>
-          <img src={Client2} alt=""/>
-        </div>
+      <div className="pics">
+        <img src={Client1} alt="" />
+        <img src={Client2} alt="" />
       </div>
     </div>
   );

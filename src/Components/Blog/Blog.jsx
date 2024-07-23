@@ -8,20 +8,24 @@ import Date3 from "../../assets/Date3.png";
 
 const Blog = () => {
   return (
-    <div className=" blog container">
+    <div className=" blog">
       <div className="blog-1">
-        <h3 className="blog-2">Our Blog</h3>
+        <h3>Our Blog</h3>
         <h1>Our Latest News</h1>
       </div>
 
       <div>
-        <div>
-          <img src={Blogpics1} alt="" className="blogpics" />
-          <img src={Date1} alt="" />
-        </div>
+        <div className="blogpics-display">
+          <div className="blogpics">
+            <div>
+              <img src={Blogpics1} alt="" />
+            </div>
+            <div>
+              <img src={Date1} alt="" />
+            </div>
+          </div>
 
-        <div className="inland-text">
-          <div className="inland-div">
+          <div className="inland-text">
             <p className="inland">
               Inland freight a worthy solution for your business
             </p>
@@ -36,17 +40,24 @@ const Blog = () => {
           </div>
         </div>
 
-        <div>
-          <img src={Blogpics2} alt="" className="blogpics" />
-          <img src={Date2} alt="" />
-        </div>
+    </div>
 
-        <div className="inland-text">
-          <div className="inland-div">
+    <div>
+        <div className="blogpics-display">
+          <div className="blogpics">
+            <div>
+              <img src={Blogpics2} alt="" />
+            </div>
+            <div>
+              <img src={Date2} alt="" />
+            </div>
+          </div>
+
+          <div className="inland-text">
             <p className="inland inland2">
             How technology can help redraw the supply chain map
             </p>
-            <p className="dedicated dedicated2">
+            <p className="dedicated">
               We are dedicated in creating added value for our customers by
               implementing modern technology in our work.
             </p>
@@ -57,13 +68,20 @@ const Blog = () => {
           </div>
         </div>
 
-        <div>
-          <img src={Blogpics3} alt=""/>
-          <img src={Date3} alt="" />
-        </div>
+    </div>
 
-        <div className="inland-text">
-          <div className="inland-div">
+    <div>
+        <div className="blogpics-display">
+          <div className="blogpics">
+            <div>
+              <img src={Blogpics3} alt="" />
+            </div>
+            <div>
+              <img src={Date3} alt="" />
+            </div>
+          </div>
+
+          <div className="inland-text">
             <p className="inland">
             Five things you should have ready for your broker
             </p>
@@ -77,8 +95,9 @@ const Blog = () => {
             <li>Reliable & experienced staffs</li>
           </div>
         </div>
-      </div>
+
         <button className="btn1">More Blog</button>
+    </div>
     </div>
   );
 };

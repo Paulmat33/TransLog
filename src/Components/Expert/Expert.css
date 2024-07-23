@@ -1,4 +1,49 @@
 .expert-team{
+  margin-top: 95px;
+  margin-bottom:40px ;
+}
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+.team h3{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+  background: #E8E8E880;
+  width: 130px;
+  padding:3px 8px;
+  border-left:3px solid  #FFDA56;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.59px;
+text-align: left;
+margin-bottom:16px;
+color:#1C1F35;
+}
+.team h1{
+  font-family: var(--heading-font);
+  color: #1C1F35;
+font-size: 35px;
+font-weight: 600;
+line-height: 41.48px;
+padding-top:0px;
+padding-bottom:40px;
+}
+.expert{
+  display:flex;
+  flex-direction: row;
+  gap:54px;
+  }
+  .expert-img {
+    width:100%; 
+    padding-bottom: 50.08px;  
+  }
+
+
+@media screen and (max-width: 500px) {
+
+.expert-team{
   margin-top: 40px;
 }
 .team{
@@ -10,18 +55,12 @@
   margin: auto;
 } 
 .team h3{
-  font-family: var(--heading-font);
-  color:#1C1F35;
-  background: #E8E8E880;
   width: 122.85px;
   padding:2.58px 2.40px 3.19px 7.74px;
-  border-left:3px solid  #FFDA56;
   font-size: 13.19px;
-font-weight: 400;
 line-height: 15.63px;
 text-align: center;
 margin-bottom:7.71px;
-color:#1C1F35;
 }
 .team h1{
   font-family: var(--heading-font);
@@ -36,4 +75,5 @@ padding-bottom:37.69px;
 .expert img{
 width:100%; 
 padding-bottom: 50.08px; 
+}
 }
