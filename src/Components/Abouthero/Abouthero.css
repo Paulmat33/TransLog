@@ -1,0 +1,37 @@
+.abouthero {
+  background: linear-gradient(
+      90.93deg,
+      #032d5f 18.18%,
+      rgba(9, 18, 66, 0.2) 64.92%
+    ),
+    url("../../assets/Aboutbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.about {
+  padding-top: 137px;
+  padding-bottom: 198px;
+  width: 592px;
+}
+.abouthero h4 {
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: left;
+  padding: 3px 10px;
+  border-left: 3px solid #ffda56;
+  background: #041c37;
+  color:#FFFFFF;
+  width: 90px;
+}
+.abouthero h1 {
+  font-family: var(--heading-font);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 71.1px;
+  text-align: left;
+  color:#FFFFFF;
+}

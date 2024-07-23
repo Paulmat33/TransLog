@@ -31,6 +31,7 @@ nav {
   list-style: none;
   gap: 16px;
 }
+
 .left-border {
   padding-left:30px;
   border-left:1px solid #FFFFFF33;
@@ -38,8 +39,17 @@ nav {
 font-size: 12px;
 font-weight: 600;
 line-height: 12.6px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
 text-align: left;
 color:#ffffff;
+cursor:pointer;
+}
+.left-border:hover{
+  color:black;
+  /* padding-bottom: 15px; */
+  border-bottom: 1px solid #fff;
 }
 .social-icon1{
   display: flex;
@@ -47,6 +57,9 @@ color:#ffffff;
   width:19.42px;
   gap:24px;
   padding-left: 100px;
+}
+.social-icon1 img{
+  cursor:pointer;
 }
 .btn5 {
   width: hug(216px) px;
@@ -60,8 +73,8 @@ color:#ffffff;
   color: #23212a;
   margin-left: 40px;
   border: none;
+  cursor: pointer;
 }
-
 .hero-area h2 {
   font-family: var(--heading-font);
   background: #041c3780;
@@ -108,7 +121,7 @@ color:#ffffff;
   text-align: left;
   border: none;
  margin-bottom:218px;
-
+ cursor:pointer;
 }
 
 

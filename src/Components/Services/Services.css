@@ -1,0 +1,69 @@
+.services-section{
+margin-top:100px;
+background: #F4F4F4;
+padding-top:108px;
+padding-bottom: 108px;
+}
+.services-section-heading{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+}
+.services-section-heading h3{
+  font-family: var(--heading-font);
+  color:#1C1F35;
+  background: #E8E8E880;
+  width: 130px;
+  padding:3px 8px;
+  border-left:3px solid  #FFDA56;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.59px;
+text-align: left;
+margin-bottom:16px;
+color:#1C1F35;
+}
+.services-section-heading h1{
+  font-family: var(--heading-font);
+  color: #1C1F35;
+font-size: 35px;
+font-weight: 600;
+line-height: 41.48px;
+padding-top:0px;
+padding-bottom:40px;
+}
+
+.logic-display{
+  display:flex;
+  flex-direction: row;
+  gap:100px;
+  padding-bottom:53px;
+}
+.logistics-section{
+  width:270px;
+  
+}
+.logistics-section > img{
+width:49px;
+margin-bottom: 22px;
+}
+.logistics-section h2{
+  font-family: Rubik;
+font-size: 25px;
+font-weight: 400;
+line-height: 29.63px;
+text-align: left;
+color:#1C1F35;
+margin-bottom:13px;
+}
+
+.logistics-section p{
+  font-family: Krub;
+font-size: 16px;
+font-weight: 500;
+line-height: 24.24px;
+text-align: left;
+color:#666C89;
+
+}
