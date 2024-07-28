@@ -3,6 +3,7 @@ import box from "../../assets/boxicon.png";
 import airplane from "../../assets/airplane.png";
 import color from "../../assets/smallcolor.png";
 import counter from "../../assets/Counter.png";
+import Count from "../../assets/Count.png";
 
 const Delivery = () => {
   return (
@@ -36,18 +37,13 @@ const Delivery = () => {
         </div>
       </div>
 
+      <div className="airplane-2">
+        <img src={airplane} alt="image" />
+      </div>
+
       <div className="delivery-packages">
         <div className="deli-package">
-          <p>
-            1294 <img src={color} />
-            <span>Delivery Packages</span>
-          </p>
-        </div>
-        <div className="satified">
-          <p>
-            3595 <img src={color} />
-            <span>Satified Client</span>
-          </p>
+          <img src={Count} alt="" />
         </div>
       </div>
       <div className="unknown2">

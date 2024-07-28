@@ -7,7 +7,7 @@ const Expert = () => {
   return (
     <div className="expert-team container">
       <div className="team">
-        <h3 className="tran">The Transporters</h3>
+        <h3>The Transporters</h3>
         <h1>Meet Expert Team</h1>
       </div>
 

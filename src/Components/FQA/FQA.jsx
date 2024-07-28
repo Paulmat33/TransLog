@@ -1,10 +1,5 @@
+import React, {useState} from 'react'
 import "./FQA.css";
-import * as React from "react";
-// import Accordion, { AccordionSlots } from "@mui/material/Accordion";
-// import AccordionSummary from "@mui/material/AccordionSummary";
-// import AccordionDetails from "@mui/material/AccordionDetails";
-// import Typography from "@mui/material/Typography";
-// import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Frequent from "../../assets/FQA-img.png";
 import Phone from "../../assets/Phone-icon.png";
 import Client1 from "../../assets/Client-img1.png";
@@ -13,6 +8,12 @@ import Client3 from "../../assets/Client-img3.png";
 import Client4 from "../../assets/Client-img4.png";
 
 const FQA = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
       <div className="frequently-question">
@@ -31,23 +32,33 @@ const FQA = () => {
               disruptive.
             </p>
           </div>
-          {/* <Accordion>
-          <AccordionSummary
-            expandIcon={<ArrowDownwardIcon />}
-            aria-controls="panel1-content"
-            id="panel1-header"
-          >
-            <Typography>Accordion 1</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
-            </Typography>
-          </AccordionDetails>
-        </Accordion> */}
+
+          <div className="accordion">
+            <div className="accordion-header" onClick={toggleAccordion}>
+              <h3>This is Frontend</h3>
+              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
+            </div>
+            {isOpen && <div className="accordion-content">yes it is</div>}
+          </div>
+
+          <div className="accordion">
+            <div className="accordion-header" onClick={toggleAccordion}>
+              <h3>This is Frontend</h3>
+              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
+            </div>
+            {isOpen && <div className="accordion-content">yes it is</div>}
+          </div>
+
+          <div className="accordion">
+            <div className="accordion-header" onClick={toggleAccordion}>
+              <h3>This is Frontend</h3>
+              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
+            </div>
+            {isOpen && <div className="accordion-content">yes it is</div>}
+          </div>
         </div>
+
+
 
         <div className="frequently-question-rightcol">
           <img src={Frequent} alt="" className="frequent-img" />
@@ -65,12 +76,11 @@ const FQA = () => {
           </div>
         </div>
       </div>
-      <div className='bottom-img '>
-        <img src={Client1} alt=''/>
-        <img src={Client2} alt=''/>
-        <img src={Client3} alt=''/>
-        <img src={Client4} alt=''/>
-
+      <div className="bottom-img ">
+        <img src={Client1} alt="" />
+        <img src={Client2} alt="" />
+        <img src={Client3} alt="" />
+        <img src={Client4} alt="" />
       </div>
     </div>
   );

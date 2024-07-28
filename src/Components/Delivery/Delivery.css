@@ -73,6 +73,9 @@
   padding-right: 0px;
   padding-bottom: 0px;
 }
+.airplane-2{
+  display:none;
+}
 .delivery-packages{
   display:none;
 }
@@ -87,20 +90,24 @@ margin-left:100px;
 
 @media screen and (max-width: 500px) {
   .empty-div {
-    height: 647.44px;
-    width: 100%;
+    height: 298px;
     background: url("../../assets/lloydbg1.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   }
   .why-us {
-    margin-top: -450px;
+    display:flex;
+    flex-direction: column;
+    margin-top: -120px;
     margin-left: 16px;
     margin-right: 16px;
     background: #fff;
-    width: 343px;
+    width: 90%;
     padding-top: 8px;
     padding-left: 8px;
   }
+
   .why-us h4 {
     width: 45.24px;
     padding: 1.99px 5.3px 1.99px 5.3px;
@@ -117,8 +124,9 @@ margin-left:100px;
     padding-bottom: 8px;
     font-size: 10.59px;
     line-height: 16.05px;
+    font-weight: 500px;
+    width:307.24px
   }
-
   .box {
     gap: 9.93px;
   }
@@ -127,56 +135,16 @@ margin-left:100px;
     line-height: 19.62px;
   }
   .airplane {
-    padding-right: 16px;
-    padding-bottom: 8px;
+    display:none;
   }
-  .delivery-packages {
-    padding-left: 11.97px;
-    display: flex;
-    align-items: center;
-    border: 1px solid #d4d4d4;
-    width: 351.05px;
-    margin-left: 16px;
-    margin-bottom: 40px;
+  .airplane-2{
+    display:block;
   }
-  .deli-package p {
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28.44px;
-  }
-  .satified p {
-    font-family: var(--heading-font);
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 28.44px;
-    text-align: left;
-    color: #1c1f35;
-    padding-top: 8px;
-    margin-left: 8px;
-    padding-left: 8px;
-    border-left: 1px solid #d4d4d4;
-  }
-  .deli-package span {
-    font-family: var(--span);
-    color: #1c1f35;
-    font-size: 11.06px;
-    font-weight: 400;
-    line-height: 10.17px;
-    text-align: left;
-    padding: 0px 0px 0px 8.84px;
-    width: 78px;
-  }
-  .satified span {
-    font-family: var(--span);
-    color: #1c1f35;
-    font-size: 11.06px;
-    font-weight: 400;
-    line-height: 10.17px;
-    text-align: left;
-    padding: 0px 0px 0px 8.84px;
-    width: 67px;
+  .delivery-packages{
+    display:block;
+    margin:8px 11.97px;
   }
   .unknown{
-    display:block;
+    display:none;
   }
 }

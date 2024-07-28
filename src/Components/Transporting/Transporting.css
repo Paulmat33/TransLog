@@ -47,19 +47,17 @@
 @media screen and (max-width: 500px) {
   .transporting h1 {
     font-family: var(--heading-font);
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 41.48px;
     text-align: center;
   }
-  .roadtrans {
-    position: relative;
-    margin-top: 365px;
+  .slick-slide {
+    text-align: center;
+    padding: 10px;
   }
-  .roadtrans img {
-    position: absolute;
-    z-index: 2;
-    bottom: 300px;
+  .slick-slide img {
+    display:flex
   }
   .empty2 {
     background: linear-gradient(
@@ -70,5 +68,9 @@
     );
     height: 400px;
   }
+  .btn2 {
+    margin-left:100px;
+  }
+  
   
 }

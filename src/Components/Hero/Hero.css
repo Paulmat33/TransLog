@@ -2,65 +2,55 @@
   background: url("../../assets/Herobg.png");
   background-repeat: no-repeat;
   background-size: cover;
- background-position: center;
+  background-position: center;
 }
-.nav {
+.navhead {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 150px;
+  gap: 215px;
   background: #09124240;
-  /* padding-bottom:26px; */
-  
 }
-
-.current1{
- padding-left:30px;
-  font-family: var(--text-font);
-font-size: 12px;
-font-weight: 600;
-line-height: 12.6px;
-text-align: left;
-color:#ffffff;
-
-}
-nav {
+.navbar-menu{
   display: flex;
   flex-direction: row;
   align-items: center;
   list-style: none;
-  gap: 16px;
+  gap: 24px;
+  color: #ffffff;
+}
+.navhead .active{
+  padding-bottom: 13px;
+  border-bottom: 1px solid #fff;
+  align-items:center;
 }
 
-.left-border {
-  padding-left:30px;
-  border-left:1px solid #FFFFFF33;
+.bord{
+  /* padding-left: 30px; */
+  /* border-left: 1px solid #ffffff33; */
   font-family: var(--text-font);
-font-size: 12px;
-font-weight: 600;
-line-height: 12.6px;
   padding-bottom: 15px;
   padding-top: 15px;
+    cursor: pointer;
+    color:#ffff;
+    font-size: 12px;
+  font-weight: 600;
+  line-height: 12.6px;
+  text-align: left;
+  text-decoration: none;
 
-text-align: left;
-color:#ffffff;
-cursor:pointer;
 }
-.left-border:hover{
-  color:black;
-  /* padding-bottom: 15px; */
-  border-bottom: 1px solid #fff;
-}
-.social-icon1{
+.social-icon1 {
   display: flex;
   flex-direction: row;
-  width:19.42px;
-  gap:24px;
+  width: 19.42px;
+  gap: 24px;
   padding-left: 100px;
 }
-.social-icon1 img{
-  cursor:pointer;
+.social-icon1 img {
+  cursor: pointer;
 }
+
 .btn5 {
   width: hug(216px) px;
   padding: 15px 25px;
@@ -75,7 +65,11 @@ cursor:pointer;
   border: none;
   cursor: pointer;
 }
-.hero-area h2 {
+.small-hero{
+  margin-top: 140px;
+
+}
+.small-hero h2 {
   font-family: var(--heading-font);
   background: #041c3780;
   padding: 3px 9px;
@@ -84,11 +78,10 @@ cursor:pointer;
   font-weight: 400;
   line-height: 16.59x;
   text-align: left;
-  margin-top: 140px;
   width: 25.9%;
   color: #ffffff;
 }
-.hero-area h1 {
+.small-hero h1 {
   font-family: var(--heading-font);
   color: #ffffff;
   padding-top: 8px;
@@ -97,9 +90,9 @@ cursor:pointer;
   font-weight: 700;
   line-height: 71.1px;
   text-align: left;
-  width:571px;
+  width: 571px;
 }
-.hero-area p {
+.small-hero p {
   font-family: var(--text-font);
   color: #ffffff;
   padding-bottom: 24px;
@@ -120,23 +113,34 @@ cursor:pointer;
   line-height: 21.6px;
   text-align: left;
   border: none;
- margin-bottom:218px;
- cursor:pointer;
+  margin-bottom: 218px;
+  cursor: pointer;
 }
 
-
 @media screen and (max-width: 500px) {
-  .nav {
-    display: block;
+  .hero-area {
+    background: url("../../assets/Herobg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .navhead {
+    display: none;
   }
   .hero-area {
-    padding-bottom: 142.46px;
+    padding-top: 100px;
+
   }
+  .small-hero{
+    padding-bottom: 6px;
+    margin-top:130px;
+  }
+  
   .hero-area h2 {
     padding: 1.37px 4.11px;
     font-size: 6.4px;
     line-height: 7.58px;
-    width: 36%;
+    width: 33%;
   }
   .hero-area h1 {
     padding-top: 3.66px;

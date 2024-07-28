@@ -46,21 +46,14 @@ padding-bottom:40px;
 .expert-team{
   margin-top: 40px;
 }
-.team{
-  width:90%;
-  margin: auto;
-
-}
- .tran{
-  margin: auto;
-} 
 .team h3{
   width: 122.85px;
   padding:2.58px 2.40px 3.19px 7.74px;
   font-size: 13.19px;
 line-height: 15.63px;
 text-align: center;
-margin-bottom:7.71px;
+margin-bottom:1px;
+
 }
 .team h1{
   font-family: var(--heading-font);
@@ -71,6 +64,10 @@ line-height: 39.08px;
 padding-top: 15.08px;
 padding-bottom:37.69px;
 }
+
+.expert{
+  flex-direction: column;
+  }
 
 .expert img{
 width:100%; 

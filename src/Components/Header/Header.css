@@ -40,6 +40,12 @@ text-align: left;
 
 @media screen and (max-width: 500px){
   .header{
-    display: none;
+    display: block;
+  }
+  .logo{
+    width:40%;
+  }
+  .icon{
+    display:none;
   }
 }

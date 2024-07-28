@@ -1,3 +1,4 @@
+import React from "react";
 import "./Contact.css";
 import Email from "../../assets/Email-icon.png";
 import Phone from "../../assets/Phone-icon.png";
@@ -6,6 +7,32 @@ import Client1 from "../../assets/Client1.png";
 import Client2 from "../../assets/Client2.png";
 
 const Contact = () => {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "4903665b-bab1-49e7-b02a-6582e0972ac6");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <div className="contact-info container">
       <div className="form-display">
@@ -40,7 +67,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <form>
+        <form onSubmit={onSubmit}>
           <div className="formname-display">
             <div className="formname">
               <input type="text" placeholder="Your name*" required />
@@ -69,6 +96,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <button className="send-btn">Submit Message</button>
+        <span>{result}</span>
         </form>
       </div>
 

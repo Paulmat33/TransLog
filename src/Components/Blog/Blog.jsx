@@ -46,7 +46,7 @@ const Blog = () => {
         <div className="blogpics-display">
           <div className="blogpics">
             <div>
-              <img src={Blogpics2} alt="" />
+              <img src={Blogpics2} alt=""  />
             </div>
             <div>
               <img src={Date2} alt="" />

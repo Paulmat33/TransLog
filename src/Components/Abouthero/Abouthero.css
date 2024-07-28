@@ -13,7 +13,7 @@
 .about {
   padding-top: 137px;
   padding-bottom: 198px;
-  width: 592px;
+  /* width: 592px; */
 }
 .abouthero h4 {
   font-family: var(--heading-font);

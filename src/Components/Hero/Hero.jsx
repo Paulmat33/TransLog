@@ -1,18 +1,25 @@
+// import React from 'react';
+import { Link } from 'react-router-dom';
+import React, {useState} from 'react'
 import "./Hero.css";
 import Twitter from '../../assets/Twitter.png'
 import Facebook from '../../assets/Facebook.png'
-import Linkdin from '../../assets/Linkdin.png'
+import Linkdin from '../../assets/Linkdin.png';
+
+
+
 const Hero = () => {
+  // const [menu, setMenu] = useState("Home")
   return (
     <div className="hero-area">
-      <div className="nav container">
-        <nav>
-          <li className="left-border">Home</li>
-          <li className="left-border">About</li>
-          <li className="left-border">Pages</li>
-          <li className="left-border">Project</li>
-          <li className="left-border">Contact</li>
-        </nav>
+      <div className="navhead container">
+        <ul className="navbar-menu">
+        <li><Link className="bord active" to="/">Home</Link></li>
+        <li><Link className="bord " to="/about">About</Link></li>
+        <li><Link className="bord " to="/pages">Pages</Link></li>
+        <li><Link className="bord " to="/project">Project</Link></li>
+        <li><Link className="bord " to="/contact">Contact</Link></li>
+        </ul>
         <div className="social-icon1">
           <img src={Twitter} alt="" />
           <img src={Facebook} alt="" />
@@ -20,7 +27,7 @@ const Hero = () => {
         </div>
         <button className="btn5"> Request Quote</button>
       </div>
-      <div className="container">
+      <div className="container small-hero">
         <h2>Logistics & Supply Chain Distribution</h2>
         <h1>
           Your Gateway <br />

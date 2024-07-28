@@ -13,6 +13,7 @@ import Header from '../../Components/Header/Header'
 const Homepage = () => {
   return (
     <div>
+      <Header/>
       <Hero/>
       <SectionA/>
       <Delivery/>
@@ -22,6 +23,7 @@ const Homepage = () => {
       <Expert/>
       <Contact/>
       <Blog/>
+      <Footer/>
     </div>
   )
 }
