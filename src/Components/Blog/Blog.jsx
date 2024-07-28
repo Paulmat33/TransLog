@@ -18,7 +18,7 @@ const Blog = () => {
         <div className="blogpics-display">
           <div className="blogpics">
             <div>
-              <img src={Blogpics1} alt="" />
+              <img src={Blogpics1} alt="" className="blog-blog" />
             </div>
             <div>
               <img src={Date1} alt="" />
@@ -39,14 +39,13 @@ const Blog = () => {
             <li>Reliable & experienced staffs</li>
           </div>
         </div>
+      </div>
 
-    </div>
-
-    <div>
+      <div>
         <div className="blogpics-display">
           <div className="blogpics">
             <div>
-              <img src={Blogpics2} alt=""  />
+              <img src={Blogpics2} alt="" className="blog-blog"/>
             </div>
             <div>
               <img src={Date2} alt="" />
@@ -55,7 +54,7 @@ const Blog = () => {
 
           <div className="inland-text">
             <p className="inland inland2">
-            How technology can help redraw the supply chain map
+              How technology can help redraw the supply chain map
             </p>
             <p className="dedicated">
               We are dedicated in creating added value for our customers by
@@ -67,14 +66,13 @@ const Blog = () => {
             <li>Reliable & experienced staffs</li>
           </div>
         </div>
+      </div>
 
-    </div>
-
-    <div>
+      <div>
         <div className="blogpics-display">
           <div className="blogpics">
             <div>
-              <img src={Blogpics3} alt="" />
+              <img src={Blogpics3} alt="" className="blog-blog" />
             </div>
             <div>
               <img src={Date3} alt="" />
@@ -83,7 +81,7 @@ const Blog = () => {
 
           <div className="inland-text">
             <p className="inland">
-            Five things you should have ready for your broker
+              Five things you should have ready for your broker
             </p>
             <p className="dedicated">
               We are dedicated in creating added value for our customers by
@@ -97,7 +95,7 @@ const Blog = () => {
         </div>
 
         <button className="btn1">More Blog</button>
-    </div>
+      </div>
     </div>
   );
 };
