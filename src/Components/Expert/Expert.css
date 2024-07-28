@@ -1,76 +1,79 @@
-.expert-team{
+.expert-team {
   margin-top: 95px;
-  margin-bottom:40px ;
+  margin-bottom: 40px;
 }
-.team{
+.team {
   display: flex;
   flex-direction: column;
   align-items: center;
-} 
-.team h3{
+}
+.team h3 {
   font-family: var(--heading-font);
-  color:#1C1F35;
-  background: #E8E8E880;
+  color: #1c1f35;
+  background: #e8e8e880;
   width: 130px;
-  padding:3px 8px;
-  border-left:3px solid  #FFDA56;
-font-size: 14px;
-font-weight: 400;
-line-height: 16.59px;
-text-align: left;
-margin-bottom:16px;
-color:#1C1F35;
+  padding: 3px 8px;
+  border-left: 3px solid #ffda56;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: left;
+  margin-bottom: 16px;
+  color: #1c1f35;
 }
-.team h1{
+.team h1 {
   font-family: var(--heading-font);
-  color: #1C1F35;
-font-size: 35px;
-font-weight: 600;
-line-height: 41.48px;
-padding-top:0px;
-padding-bottom:40px;
+  color: #1c1f35;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  padding-top: 0px;
+  padding-bottom: 40px;
 }
-.expert{
-  display:flex;
+.expert {
+  display: flex;
   flex-direction: row;
-  gap:54px;
-  }
-  .expert-img {
-    width:100%; 
-    padding-bottom: 50.08px;  
-  }
-
+  gap: 54px;
+}
+.expert-img img{
+  transition: all 0.3s;
+  width: 100%;
+  padding-bottom: 50.08px;
+  cursor: pointer;
+}
+.expert-img img:hover {
+  cursor: pointer;
+  transform: scale(1.15);
+}
 
 @media screen and (max-width: 500px) {
-
-.expert-team{
-  margin-top: 40px;
-}
-.team h3{
-  width: 122.85px;
-  padding:2.58px 2.40px 3.19px 7.74px;
-  font-size: 13.19px;
-line-height: 15.63px;
-text-align: center;
-margin-bottom:1px;
-
-}
-.team h1{
-  font-family: var(--heading-font);
-  color: #1C1F35;
-font-size: 32.98px;
-font-weight: 600;
-line-height: 39.08px;
-padding-top: 15.08px;
-padding-bottom:37.69px;
-}
-
-.expert{
-  flex-direction: column;
+  .expert-team {
+    margin-top: 40px;
+  }
+  .team h3 {
+    width: 122.85px;
+    padding: 2.58px 2.4px 3.19px 7.74px;
+    font-size: 13.19px;
+    line-height: 15.63px;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .team h1 {
+    font-family: var(--heading-font);
+    color: #1c1f35;
+    font-size: 32.98px;
+    font-weight: 600;
+    line-height: 39.08px;
+    padding-top: 15.08px;
+    padding-bottom: 37.69px;
   }
 
-.expert img{
-width:100%; 
-padding-bottom: 50.08px; 
-}
+  .expert {
+    flex-direction: column;
+  }
+
+  .expert img {
+    width: 100%;
+    padding-bottom: 50.08px;
+  }
 }

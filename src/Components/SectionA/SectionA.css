@@ -35,6 +35,8 @@
   flex-wrap: wrap;
   gap: 40px;
   padding-bottom: 70px;
+cursor: pointer;
+
 }
 .services-icon {
   display: flex;

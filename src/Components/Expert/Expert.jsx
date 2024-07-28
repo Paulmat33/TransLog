@@ -12,14 +12,14 @@ const Expert = () => {
       </div>
 
       <div className="expert">
-        <div>
-          <img src={expert1} alt="" className="expert-img"/>
+        <div className="expert-img">
+          <img src={expert1} alt=""/>
         </div>
-        <div>
-          <img src={expert2} alt="" className="expert-img" />
+        <div className="expert-img">
+          <img src={expert2} alt=""/>
         </div>
-        <div>
-          <img src={expert3} alt="" className="expert-img" />
+        <div className="expert-img">
+          <img src={expert3} alt=""/>
         </div>
       </div>
     </div>

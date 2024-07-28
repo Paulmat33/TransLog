@@ -10,6 +10,12 @@
   width:85%;
   cursor:pointer;
  }
+ .logo svg{
+  display:none;
+ }
+ .nav-bar{
+  display:none;
+ }
 .icon{
   display: flex;
   flex-direction: row;
@@ -42,8 +48,44 @@ text-align: left;
   .header{
     display: block;
   }
-  .logo{
+  .logo img{
     width:40%;
+  }
+  .logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    right: 0;
+    width: 100vw;
+    background: white;
+    transition: 0.2s;
+    height: 0px;
+    overflow: hidden;
+  }
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding-right: 0px;
+    text-align: center;
+    transition: 0.5s;
+  }
+  .nav-bar ul li{
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 18px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
   }
   .icon{
     display:none;

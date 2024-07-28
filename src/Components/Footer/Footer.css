@@ -26,6 +26,10 @@
   padding-top:33px;
   /* width:900px; */
 }
+.foot img{
+cursor: pointer;
+
+}
 .footer-text{
   width:319px;
 }
@@ -44,6 +48,8 @@ margin-bottom: 33px;
   align-items: center;
   gap:14px;
   padding-bottom: 30px;
+cursor: pointer;
+
 }
 .footer-mail p{
   font-family: Krub;
@@ -60,6 +66,8 @@ text-align: left;
   margin-top: 33px;
   right: 20px;
   position: absolute;
+cursor: pointer;
+
 }
 .color-div2{
   background: #FFFFFF14;
@@ -88,6 +96,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 40px;
 text-align: left;
+cursor: pointer;
 
 }
 .page-text input{
@@ -116,6 +125,7 @@ border: none;
 color:#23212A;
 margin-top: 20px;
 margin-right: 35px;
+cursor: pointer;
 
 }
 .footer-social-icon{
@@ -181,7 +191,7 @@ color:#8388A7;
   margin-bottom:10px;
 }
 .footer-text{
-  width:70%;
+  width:80%;
 }
 .agile-text p{
   font-family: var(--text-font);
@@ -267,7 +277,6 @@ text-align: left;
 border: none;
 color:#23212A;
 margin-right: 10px;
-
 }
 .icon-display{
   display:flex;
@@ -314,24 +323,3 @@ color:#8388A7;
 } 
 }
 
-
-/* .footer-social-icon{
-  display: flex;
-  flex-direction:row;
-  gap:8px;
-  align-items: center;
-  margin-top: 10px;
-}
-.btn4{
-  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
-  padding:5px 5px;
-  font-family: var(--text-font);
-font-size: 10px;
-font-weight: 600;
-line-height: 21.6px;
-text-align: left;
-border: none;
-color:#23212A;
-margin-right: 10px;
-
-} */

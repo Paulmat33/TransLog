@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from "react";
 import "./FQA.css";
 import Frequent from "../../assets/FQA-img.png";
 import Phone from "../../assets/Phone-icon.png";
@@ -32,33 +32,7 @@ const FQA = () => {
               disruptive.
             </p>
           </div>
-
-          <div className="accordion">
-            <div className="accordion-header" onClick={toggleAccordion}>
-              <h3>This is Frontend</h3>
-              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
-            </div>
-            {isOpen && <div className="accordion-content">yes it is</div>}
-          </div>
-
-          <div className="accordion">
-            <div className="accordion-header" onClick={toggleAccordion}>
-              <h3>This is Frontend</h3>
-              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
-            </div>
-            {isOpen && <div className="accordion-content">yes it is</div>}
-          </div>
-
-          <div className="accordion">
-            <div className="accordion-header" onClick={toggleAccordion}>
-              <h3>This is Frontend</h3>
-              <span className={`arrow ${isOpen ? "open" : ""}`}>&#9660;</span>
-            </div>
-            {isOpen && <div className="accordion-content">yes it is</div>}
-          </div>
         </div>
-
-
 
         <div className="frequently-question-rightcol">
           <img src={Frequent} alt="" className="frequent-img" />

@@ -97,7 +97,7 @@ font-weight: 600;
 line-height: 21.6px;
 text-align: left;
 margin:39px 37px 0px 377px;
-  
+cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
@@ -105,7 +105,6 @@ margin:39px 37px 0px 377px;
   padding-top:60px;
   padding-bottom: 50px;
   width:90%;
-  overflow-x: hidden;
   margin-left:16px;
 }
 .blog-1{
@@ -122,7 +121,7 @@ padding-bottom:37.69px;
   flex-direction: column;
 }
 .blog-blog{
-  width:95%;
+  width:100%;
 }
 .blogpics-display{
   display: flex;
